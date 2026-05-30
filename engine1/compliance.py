@@ -21,21 +21,30 @@ def score_compliance(tender_specs, product_specs):
 
 # Test with LiuGong 194kw Grader vs Horn Of Africa GGP tender
 if __name__ == "__main__":
-  tender = {
+  tender_grader = {
       "power_hp": 180,
       "ripper": 1,
       "scarifier": 1,
-      "ac": 1
+      "ac": 1,
+      "fm_radio": 1,
+      "reflective_chevrons": 1,
+      "spare_wheel": 1
+      "compressor": 1
   }
   product = {
     "power_hp": 260,
     "ripper": 1,
     "scarifier": 1,
-    "ac": 1
+    "ac": 1,
+    "fm_radio": 1,
+    "reflective_chevrons": 1,
+    "spare_wheel": 1
+    "compressor": 1
   }
 
 score, gaps, mitigations = score_compliance(tender, product)
-print(f"Compliance Score: {score}")
+print(f"\n=== LiuGong Grader vs HOAGDP Tender ===")
+print(f"Compliance Score: {score}/80")
 print(f"Gaps: {gaps}")
 print(f"Mitigations: {mitigattions}")
  
