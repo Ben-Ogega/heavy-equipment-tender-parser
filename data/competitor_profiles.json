@@ -1,0 +1,140 @@
+{
+  "excavators": [
+    {
+      "competitor": "CAT",
+      "model": "320",
+      "engine_hp": 162,
+      "operating_weight_kg": 21500,
+      "bucket_capacity_m3": 1.19,
+      "price_usd": 185000,
+      "liugong_equivalent": "922E",
+      "sales_pitch": "LiuGong 922E matches CAT 320 on power and weight at 30% lower CapEx with Cummins engine commonality."
+    },
+    {
+      "competitor": "Komatsu",
+      "model": "PC200",
+      "engine_hp": 148,
+      "operating_weight_kg": 19500,
+      "bucket_capacity_m3": 1.0,
+      "price_usd": 175000,
+      "liugong_equivalent": "922E",
+      "sales_pitch": "LiuGong 922E exceeds Komatsu PC200 on power and capacity at significantly lower total cost of ownership."
+    },
+    {
+      "competitor": "SANY",
+      "model": "SY215",
+      "engine_hp": 140,
+      "operating_weight_kg": 21900,
+      "bucket_capacity_m3": 1.0,
+      "price_usd": 120000,
+      "liugong_equivalent": "922E",
+      "sales_pitch": "LiuGong 922E offers Cummins engine reliability and stronger dealer support network vs SANY."
+    }
+  ],
+  "wheel_loaders": [
+    {
+      "competitor": "CAT",
+      "model": "966",
+      "engine_hp": 321,
+      "operating_weight_kg": 23000,
+      "bucket_capacity_m3": 4.2,
+      "price_usd": 280000,
+      "liugong_equivalent": "856H",
+      "sales_pitch": "LiuGong 856H matches CAT 966 performance at 35% lower acquisition cost with proven ZF axles."
+    },
+    {
+      "competitor": "Komatsu",
+      "model": "WA380",
+      "engine_hp": 283,
+      "operating_weight_kg": 18150,
+      "bucket_capacity_m3": 3.2,
+      "price_usd": 250000,
+      "liugong_equivalent": "856H",
+      "sales_pitch": "LiuGong 856H delivers comparable breakout force and bucket capacity with lower fuel consumption."
+    }
+  ],
+  "motor_graders": [
+    {
+      "competitor": "CAT",
+      "model": "140",
+      "engine_hp": 193,
+      "operating_weight_kg": 15400,
+      "blade_width_m": 3.66,
+      "price_usd": 220000,
+      "liugong_equivalent": "4180D",
+      "sales_pitch": "LiuGong 4180D matches CAT 140 moldboard control and power with 40% lower upfront investment."
+    },
+    {
+      "competitor": "Komatsu",
+      "model": "GD675",
+      "engine_hp": 218,
+      "operating_weight_kg": 16000,
+      "blade_width_m": 3.72,
+      "price_usd": 210000,
+      "liugong_equivalent": "4180D",
+      "sales_pitch": "LiuGong 4180D provides equivalent grading precision with stronger parts availability in East Africa."
+    }
+  ],
+  "bulldozers": [
+    {
+      "competitor": "CAT",
+      "model": "D6",
+      "engine_hp": 215,
+      "operating_weight_kg": 20800,
+      "price_usd": 350000,
+      "liugong_equivalent": "B230C",
+      "sales_pitch": "LiuGong B230C delivers CAT D6 comparable push power and undercarriage durability at 45% lower cost."
+    },
+    {
+      "competitor": "Shantui",
+      "model": "SD22",
+      "engine_hp": 220,
+      "operating_weight_kg": 23450,
+      "price_usd": 95000,
+      "liugong_equivalent": "B230C",
+      "sales_pitch": "LiuGong B230C offers superior operator comfort and global parts network vs Shantui."
+    }
+  ],
+  "rollers": [
+    {
+      "competitor": "CAT",
+      "model": "CS74",
+      "engine_hp": 100,
+      "operating_weight_kg": 11800,
+      "price_usd": 160000,
+      "liugong_equivalent": "6611E",
+      "sales_pitch": "LiuGong 6611E matches CAT CS74 compaction performance with simplified maintenance and lower parts cost."
+    },
+    {
+      "competitor": "Bomag",
+      "model": "BW213",
+      "engine_hp": 150,
+      "operating_weight_kg": 13100,
+      "price_usd": 180000,
+      "liugong_equivalent": "6620E",
+      "sales_pitch": "LiuGong 6620E delivers Bomag-grade compaction force with faster local service response."
+    }
+  ],
+  "forklifts": [
+    {
+      "competitor": "Toyota",
+      "model": "8FG25",
+      "engine_hp": 64,
+      "lift_capacity_kg": 2500,
+      "lift_height_m": 4.3,
+      "price_usd": 35000,
+      "liugong_equivalent": "CLG2025",
+      "sales_pitch": "LiuGong CLG2025 matches Toyota 8FG25 lift capacity and height at 25% lower cost with Cummins power."
+    },
+    {
+      "competitor": "Komatsu",
+      "model": "FG25",
+      "engine_hp": 60,
+      "lift_capacity_kg": 2500,
+      "lift_height_m": 4.0,
+      "price_usd": 32000,
+      "liugong_equivalent": "CLG2025",
+      "sales_pitch": "LiuGong CLG2025 exceeds Komatsu FG25 on lift height and engine power with better East African dealer coverage."
+    }
+  ]
+}
