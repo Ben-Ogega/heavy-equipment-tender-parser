@@ -1,23 +1,15 @@
 import streamlit as st
 import json
-from pathlib import Path
 
-# Page config
-st.set_page_config(
-    page_title="Heavy Equipment Tender Parser",
-    page_icon="🏗️",
-    layout="wide"
-)
+st.set_page_config(page_title="Heavy Equipment Tender Parser", page_icon="🏗️")
 
-# Title
 st.title("🏗️ Heavy Equipment Tender Parser")
 st.subheader("Automated compliance analysis for East African tenders")
 
 # Load data
-@st.cache_data
 def load_profiles():
     try:
-        with open("data/competitor_profiles.json", "r", encoding="utf-8") as f:
+        with open("data/competitor_profiles.json", "r") as f:
             return json.load(f)
     except:
         return {}
@@ -29,7 +21,7 @@ st.sidebar.header("Tender Specifications")
 
 equipment_category = st.sidebar.selectbox(
     "Equipment Category",
-    list(profiles.keys()) if profiles else ["excavators", "wheel_loaders", "motor_graders"]
+    list(profiles.keys()) if profiles else ["excavators"]
 )
 
 power_required = st.sidebar.number_input(
@@ -39,19 +31,15 @@ power_required = st.sidebar.number_input(
     value=180
 )
 
-# Tender specs dict
-tender_specs = {"engine_hp": power_required}
-
-# Run analysis button
-if st.sidebar.button("🔍 Analyze Tender", type="primary"):
-    st.header("📊 Analysis Results")
+# Run analysis
+if st.sidebar.button("Analyze Tender"):
+    st.header("Analysis Results")
     
     category_data = profiles.get(equipment_category, [])
     
     if not category_data:
-        st.warning("No competitor data available for this category")
+        st.warning("No data available")
     else:
-        # Simple scoring (reusing logic from tender_analyzer)
         results = []
         for competitor in category_data:
             comp_hp = competitor.get("engine_hp", 0)
@@ -66,35 +54,20 @@ if st.sidebar.button("🔍 Analyze Tender", type="primary"):
                 "sales_pitch": competitor.get("sales_pitch", "")
             })
         
-        # Sort by score desc, price asc
         results.sort(key=lambda x: (-x["score"], x["price_usd"]))
         
-        # Display results
         for i, r in enumerate(results, 1):
-            with st.container():
-                col1, col2, col3 = st.columns([2, 1, 3])
-                
-                with col1:
-                    st.write(f"**{i}. {r['competitor']}**")
-                    st.write(f"Power: {r['engine_hp']} HP")
-                
-                with col2:
-                    status = "✅ Compliant" if r["score"] > 0 else "❌ Below Spec"
-                    st.write(f"**{status}**")
-                    st.write(f"${r['price_usd']:,}")
-                
-                with col3:
-                    st.info(f"LiuGong Alternative: **{r['liugong_equivalent']}**")
-                    st.write(f"🎯 {r['sales_pitch']}")
-                
-                st.divider()
+            status = "Compliant" if r["score"] > 0 else "Below Spec"
+            st.write(f"**{i}. {r['competitor']}** — {status}")
+            st.write(f"Power: {r['engine_hp']} HP | Price: ${r['price_usd']:,}")
+            st.write(f"LiuGong Alternative: **{r['liugong_equivalent']}**")
+            st.write(f"Pitch: {r['sales_pitch']}")
+            st.write("---")
         
-        # Best recommendation
-        best = results[0] if results else None
-        if best:
-            st.success(f"""
-            **RECOMMENDED: {best['liugong_equivalent']}**
-            
-            Highest compliance score with competitive pricing.
-            Use this in your tender response.
-            """)
+        if results:
+            best = results[0]
+            st.success(f"RECOMMENDED: {best['liugong_equivalent']}")
+
+# Footer
+st.sidebar.markdown("---")
+st.sidebar.write("Built by Ben Ogega | LiuGong East Africa")
