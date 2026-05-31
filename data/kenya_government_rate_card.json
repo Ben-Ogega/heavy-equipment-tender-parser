@@ -1,0 +1,150 @@
+{
+  "source": "Ministry of Transport, Infrastructure, Housing, Urban Development & Public Works - State Department for Infrastructure (SDI)",
+  "document": "Rate Card - Mechanical and Transport Division",
+  "legal_notice": "Kenya Gazette Legal Notice No. 53 of 8th June 2011",
+  "notes": "Hour or Kilometer rates shall apply whichever will be higher. Minimum charges per day is the amount charged the procuring entity for every day the vehicle is in the custody of the procuring entity lying idle or underutilized but in a serviceable condition.",
+  
+  "trucks_flat_bed": [
+    {"capacity": "2.5-5 Ton", "unit": "KM", "min_daily_charge": 3000, "private_rate": 50, "public_rate": 50},
+    {"capacity": "2.5-5 Ton", "unit": "Hour", "min_daily_charge": 3000, "private_rate": 1370, "public_rate": 1480},
+    {"capacity": "5-7 Ton", "unit": "KM", "min_daily_charge": 3500, "private_rate": 60, "public_rate": 60},
+    {"capacity": "5-7 Ton", "unit": "Hour", "min_daily_charge": 3500, "private_rate": 1750, "public_rate": 1790},
+    {"capacity": "7-8 Ton", "unit": "KM", "min_daily_charge": 3800, "private_rate": 60, "public_rate": 60},
+    {"capacity": "7-8 Ton", "unit": "Hour", "min_daily_charge": 3800, "private_rate": 1830, "public_rate": 1870},
+    {"capacity": "12 Ton", "unit": "KM", "min_daily_charge": 4300, "private_rate": 70, "public_rate": 70},
+    {"capacity": "12 Ton", "unit": "Hour", "min_daily_charge": 4300, "private_rate": 2180, "public_rate": 2150},
+    {"capacity": "15 Ton", "unit": "KM", "min_daily_charge": 5200, "private_rate": 90, "public_rate": 90},
+    {"capacity": "15 Ton", "unit": "Hour", "min_daily_charge": 5200, "private_rate": 2720, "public_rate": 2590},
+    {"capacity": "20 Ton", "unit": "KM", "min_daily_charge": 6700, "private_rate": 130, "public_rate": 110},
+    {"capacity": "20 Ton", "unit": "Hour", "min_daily_charge": 6700, "private_rate": 3640, "public_rate": 3360}
+  ],
+  
+  "buses": [
+    {"type": "Microbus", "capacity": "14-18 Pass", "unit": "KM", "min_daily_charge": 3600, "private_rate": 40, "public_rate": 50},
+    {"type": "Microbus", "capacity": "14-18 Pass", "unit": "Hour", "min_daily_charge": 3600, "private_rate": 1230, "public_rate": 1800},
+    {"type": "Minibus", "capacity": "25-30 Pass", "unit": "KM", "min_daily_charge": 3000, "private_rate": 40, "public_rate": 50},
+    {"type": "Minibus", "capacity": "25-30 Pass", "unit": "Hour", "min_daily_charge": 3000, "private_rate": 1090, "public_rate": 1520},
+    {"type": "Large Bus", "capacity": "55-62 Pass", "unit": "KM", "min_daily_charge": 5800, "private_rate": 80, "public_rate": 100}
+  ],
+  
+  "trucks_tipper": [
+    {"capacity": "5-7 Ton", "unit": "KM", "min_daily_charge": 3800, "private_rate": 50, "public_rate": 70},
+    {"capacity": "5-7 Ton", "unit": "Hour", "min_daily_charge": 3800, "private_rate": 1530, "public_rate": 1990},
+    {"capacity": "7-8 Ton", "unit": "KM", "min_daily_charge": 4100, "private_rate": 60, "public_rate": 70},
+    {"capacity": "7-8 Ton", "unit": "Hour", "min_daily_charge": 4100, "private_rate": 1730, "public_rate": 2210},
+    {"capacity": "12 Ton", "unit": "KM", "min_daily_charge": 5000, "private_rate": 70, "public_rate": 90},
+    {"capacity": "12 Ton", "unit": "Hour", "min_daily_charge": 5000, "private_rate": 2160, "public_rate": 2660},
+    {"capacity": "15 Ton", "unit": "KM", "min_daily_charge": 5400, "private_rate": 100, "public_rate": 110},
+    {"capacity": "15 Ton", "unit": "Hour", "min_daily_charge": 5400, "private_rate": 2850, "public_rate": 3380},
+    {"capacity": "20 Ton", "unit": "KM", "min_daily_charge": 6800, "private_rate": 110, "public_rate": 130},
+    {"capacity": "20 Ton", "unit": "Hour", "min_daily_charge": 6800, "private_rate": 3220, "public_rate": 3770},
+    {"capacity": "25 Ton", "unit": "KM", "min_daily_charge": 8400, "private_rate": 140, "public_rate": 160},
+    {"capacity": "25 Ton", "unit": "Hour", "min_daily_charge": 8400, "private_rate": 4070, "public_rate": 4680}
+  ],
+  
+  "agricultural_tractors": [
+    {"hp": 40, "unit": "Hour", "min_daily_charge": 2700, "private_rate": 450, "public_rate": 660},
+    {"hp": 50, "unit": "Hour", "min_daily_charge": 3000, "private_rate": 510, "public_rate": 730},
+    {"hp": 60, "unit": "Hour", "min_daily_charge": 3400, "private_rate": 610, "public_rate": 840},
+    {"hp": 70, "unit": "Hour", "min_daily_charge": 3700, "private_rate": 690, "public_rate": 920},
+    {"hp": 80, "unit": "Hour", "min_daily_charge": 4300, "private_rate": 830, "public_rate": 1070},
+    {"hp": 90, "unit": "Hour", "min_daily_charge": 4700, "private_rate": 930, "public_rate": 1180}
+  ],
+  
+  "saloon_cars": [
+    {"cc": 1400, "unit": "KM", "min_daily_charge": 2000, "private_rate": 20, "public_rate": 30},
+    {"cc": 1400, "unit": "Hour", "min_daily_charge": 2000, "private_rate": 690, "public_rate": 990},
+    {"cc": 1600, "unit": "KM", "min_daily_charge": 2300, "private_rate": 20, "public_rate": 30},
+    {"cc": 1600, "unit": "Hour", "min_daily_charge": 2300, "private_rate": 820, "public_rate": 1120},
+    {"cc": 1800, "unit": "KM", "min_daily_charge": 2500, "private_rate": 20, "public_rate": 30},
+    {"cc": 1800, "unit": "Hour", "min_daily_charge": 2500, "private_rate": 950, "public_rate": 1260},
+    {"cc": 2000, "unit": "KM", "min_daily_charge": 3000, "private_rate": 30, "public_rate": 40},
+    {"cc": 2000, "unit": "Hour", "min_daily_charge": 3000, "private_rate": 1160, "public_rate": 1490},
+    {"cc": 2400, "unit": "KM", "min_daily_charge": 4500, "private_rate": 40, "public_rate": 50},
+    {"cc": 2400, "unit": "Hour", "min_daily_charge": 4500, "private_rate": 1770, "public_rate": 2150}
+  ],
+  
+  "pickups": [
+    {"type": "Pick UP 4x2", "capacity": "1-1.5 Tn", "unit": "KM", "min_daily_charge": 2000, "private_rate": 20, "public_rate": 30},
+    {"type": "Pick UP 4x2", "capacity": "1-1.5 Tn", "unit": "Hour", "min_daily_charge": 2500, "private_rate": 690, "public_rate": 950},
+    {"type": "Pick UP 4x4", "capacity": "1-1.5 Tn", "unit": "KM", "min_daily_charge": 2100, "private_rate": 20, "public_rate": 30},
+    {"type": "Pick UP 4x4", "capacity": "1-1.5 Tn", "unit": "Hour", "min_daily_charge": 2100, "private_rate": 780, "public_rate": 1050}
+  ],
+  
+  "crawler_tractors": [
+    {"hp": "90-100", "unit": "Hour", "min_daily_charge": 15900, "private_rate": 4020, "public_rate": 4690},
+    {"hp": "140-160", "unit": "Hour", "min_daily_charge": 25800, "private_rate": 6560, "public_rate": 7440},
+    {"hp": "200-220", "unit": "Hour", "min_daily_charge": 26100, "private_rate": 7230, "public_rate": 8210},
+    {"hp": "230-325", "unit": "Hour", "min_daily_charge": 34100, "private_rate": 8770, "public_rate": 9890},
+    {"hp": "400-450", "unit": "Hour", "min_daily_charge": 50900, "private_rate": 12460, "public_rate": 13960}
+  ],
+  
+  "motor_graders": [
+    {"hp": "100-130", "unit": "Hour", "min_daily_charge": 13100, "private_rate": 3530, "public_rate": 4180},
+    {"hp": "131-155", "unit": "Hour", "min_daily_charge": 15800, "private_rate": 4240, "public_rate": 4950},
+    {"hp": "156-200", "unit": "Hour", "min_daily_charge": 18600, "private_rate": 5040, "public_rate": 5820},
+    {"hp": "201-325", "unit": "Hour", "min_daily_charge": 34100, "private_rate": 8770, "public_rate": 9890},
+    {"hp": "400-450", "unit": "Hour", "min_daily_charge": 50900, "private_rate": 12460, "public_rate": 13960}
+  ],
+  
+  "rollers": [
+    {"type": "Pedestrian Roller", "capacity": "700-1000 Kg", "unit": "Hour", "min_daily_charge": 3200, "private_rate": 800, "public_rate": 1150},
+    {"type": "Roller", "capacity": "3-4 Ton", "unit": "Hour", "min_daily_charge": 6500, "private_rate": 2190, "public_rate": 2340},
+    {"type": "D Drum Steel Vibratory Sheep Foot", "capacity": "10 Ton, 130 HP", "unit": "Hour", "min_daily_charge": 10000, "private_rate": 3300, "public_rate": 3530},
+    {"type": "Single Drum Vibratory Roller", "capacity": "9-10 Ton 130 HP", "unit": "Hour", "min_daily_charge": 18900, "private_rate": 3840, "public_rate": 4090},
+    {"type": "SD Vibratory Roller Sheep Foot", "capacity": "9-10 Ton 130 HP", "unit": "Hour", "min_daily_charge": 22200, "private_rate": 4530, "public_rate": 4840},
+    {"type": "Pneumatic Roller", "capacity": "10 Ton", "unit": "Hour", "min_daily_charge": 10000, "private_rate": 3440, "public_rate": 3650}
+  ],
+  
+  "wheel_loaders": [
+    {"hp": "90-105", "unit": "Hour", "min_daily_charge": 13900, "private_rate": 3780, "public_rate": 4520},
+    {"hp": "106-125", "unit": "Hour", "min_daily_charge": 15200, "private_rate": 4450, "public_rate": 5240},
+    {"hp": "250-288", "unit": "Hour", "min_daily_charge": 17000, "private_rate": 8310, "public_rate": 9120}
+  ],
+  
+  "excavators": [
+    {"hp": "130-150", "unit": "Hour", "min_daily_charge": 20000, "private_rate": 5620, "public_rate": 6530},
+    {"hp": "130-150", "unit": "Hour", "min_daily_charge": 21000, "private_rate": 4760, "public_rate": 5600},
+    {"hp": "230-255", "unit": "Hour", "min_daily_charge": 27800, "private_rate": 7990, "public_rate": 9040},
+    {"hp": "230-255", "unit": "Hour", "min_daily_charge": 38600, "private_rate": 11320, "public_rate": 12560}
+  ],
+  
+  "forklifts": [
+    {"capacity": "2 Ton", "unit": "Hour", "min_daily_charge": 5000, "private_rate": 830, "public_rate": 1260},
+    {"capacity": "3 Ton", "unit": "KM", "min_daily_charge": 6000, "private_rate": 1030, "public_rate": 1490}
+  ],
+  
+  "prime_movers": [
+    {"capacity": "25-35 Ton", "unit": "Hour", "min_daily_charge": 12500, "private_rate": 170, "public_rate": 190},
+    {"capacity": "25-35 Ton", "unit": "KM", "min_daily_charge": 12500, "private_rate": 3210, "public_rate": 3780},
+    {"capacity": "35-50 Ton", "unit": "Hour", "min_daily_charge": 16900, "private_rate": 200, "public_rate": 230},
+    {"capacity": "35-50 Ton", "unit": "KM", "min_daily_charge": 16900, "private_rate": 4350, "public_rate": 4980}
+  ],
+  
+  "mechanical_services": {
+    "motorcycles": {
+      "full_inspection": 1300,
+      "accident_report": 1000,
+      "combined": 2000
+    },
+    "saloon_cars": {
+      "accident_report": 2000,
+      "full_inspection": 4600,
+      "combined": 4600
+    },
+    "heavy_commercial": {
+      "full_inspection": 4600,
+      "accident_report": 3000,
+      "combined": 8000
+    },
+    "heavy_plant": {
+      "full_inspection": 5000,
+      "accident_report": 4000,
+      "combined": 7000
+    },
+    "procurement_consultancy": {
+      "per_document": 2600,
+      "per_additional_day": 1300
+    }
+  }
+}
