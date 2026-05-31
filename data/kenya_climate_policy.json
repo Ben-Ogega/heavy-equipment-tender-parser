@@ -1,0 +1,25 @@
+{
+  "kenya_ndc_2031_2035": {
+    "document_title": "Kenya's Second Nationally Determined Contribution (2031-2035)",
+    "source": "Ministry of Environment, Climate Change and Forestry",
+    "legal_basis": "Climate Change Act 2016 (amended 2023)",
+    "mitigation_target": "35% GHG reduction by 2035 vs BAU (215 MtCO2eq)",
+    "transport_priority": "Electrification of transport sector",
+    "carbon_market_status": "Framework under development via Article 6 Paris Agreement",
+    "budget_mitigation_usd_billion": 22.5,
+    "domestic_contribution_pct": 19,
+    "just_transition": "Workforce retraining for green economy",
+    "tender_language": {
+      "compliance_statement": "This equipment proposal aligns with Kenya's NDC 2031-2035 mitigation target of 35% GHG reduction and supports the national priority of transport electrification.",
+      "carbon_benefit": "Deployment of electric construction equipment contributes to measurable emission reductions eligible under Kenya's developing carbon market framework (Climate Change Act 2023).",
+      "just_transition": "Included operator training program supports Kenya's just transition objectives for the construction workforce, as outlined in the NDC 2031-2035.",
+      "policy_reference": "Referenced: Kenya's Second NDC (2031-2035), Ministry of Environment, Climate Change and Forestry"
+    },
+    "relevant_to_equipment": [
+      "Electric construction equipment qualifies as mitigation action",
+      "Government procurement will increasingly prioritize low-carbon equipment",
+      "Carbon credits may offset equipment cost for clients",
+      "Training programs eligible for climate finance support"
+    ]
+  }
+}
