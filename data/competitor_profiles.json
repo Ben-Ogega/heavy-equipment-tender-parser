@@ -136,5 +136,75 @@
       "liugong_equivalent": "CLG2025",
       "sales_pitch": "LiuGong CLG2025 exceeds Komatsu FG25 on lift height and engine power with better East African dealer coverage."
     }
+  ],
+  "liughong_models": [
+    {
+      "model": "922E",
+      "variant": "Long Reach Arm",
+      "engine_hp_gross": 150,
+      "engine_hp_net": 137,
+      "operating_weight_kg": 23850,
+      "bucket_capacity_m3": 0.45,
+      "max_dig_depth_mm": 11910,
+      "bucket_digging_force_kn": 70,
+      "arm_digging_force_kn": 55,
+      "price_ksh": 65000000,
+      "notes": "Long reach variant. Below tender spec on power, weight, bucket, digging force."
+    },
+    {
+      "model": "933E",
+      "engine_hp_gross": 227,
+      "engine_hp_net": 209,
+      "operating_weight_kg": 33000,
+      "bucket_capacity_m3": 1.4,
+      "max_dig_depth_mm": 7300,
+      "bucket_digging_force_kn": 187,
+      "arm_digging_force_kn": 137,
+      "price_ksh": 75000000,
+      "breaker_compatible": true,
+      "technology": {
+        "avm_around_view_monitor": false,
+        "fleet_management_system": false,
+        "spc_smart_power_control": false,
+        "side_rear_cameras": false,
+        "centralized_grease_inlets": true
+      },
+      "warranty_years": 2,
+      "warranty_hours": 2000,
+      "notes": "Best-selling in Kenya. Close to tender spec but below on power and digging forces."
+    },
+    {
+      "model": "936E",
+      "engine_hp_gross": 286,
+      "engine_hp_net": 270,
+      "operating_weight_kg": 36800,
+      "bucket_capacity_m3": 1.6,
+      "max_dig_depth_mm": 7340,
+      "bucket_digging_force_kn_normal": 232,
+      "bucket_digging_force_kn_boost": 252,
+      "arm_digging_force_kn_normal": 170,
+      "arm_digging_force_kn_boost": 185,
+      "max_drawbar_pull_kn": 320,
+      "travel_speed_kmh": 5.5,
+      "fuel_tank_l": 620,
+      "hydraulic_flow_l_min": 600,
+      "relief_pressure_mpa": 34.3,
+      "price_ksh": 85000000,
+      "breaker_compatible": true,
+      "quick_coupler": "optional",
+      "technology": {
+        "ipc_intelligent_power_control": true,
+        "avm_around_view_monitor": false,
+        "fleet_management_system": false,
+        "spc_smart_power_control": false,
+        "side_rear_cameras": "rear_only_optional",
+        "centralized_grease_inlets": false,
+        "breaker_mode": true,
+        "six_work_modes": true
+      },
+      "warranty_years": 2,
+      "warranty_hours": 2000,
+      "notes": "Best match for Lot 2 tender. Power, weight, bucket above spec. Warranty 2yrs/2000hrs exceeds tender. Technology gaps: fleet management, AVM, centralized grease. Breaker mode standard. IPC similar to SPC."
+    }
   ]
 }
